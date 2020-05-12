@@ -12,7 +12,7 @@ Firstly, download the flink of version 1.10.0 from https://mirror.bit.edu.cn/apa
 
 Secondly, git clone this project. Do the command line: cd flinkTf && mvn clean install
 
-Then, cd flink && bin/start-cluster.sh
+Then, cd flink-1.10.0 && bin/start-cluster.sh
 
 bin/flink run -c com.alibaba.Predict /path/../flink-tensorflow/flinkTf/target/flink.tf-1.0-SNAPSHOT.jar --input /path/../flink-tensorflow/iris_test.csv --model /path/../flink-tensorflow/model
 
