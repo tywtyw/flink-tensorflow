@@ -17,6 +17,9 @@ Then, cd flink && bin/start-cluster.sh
 bin/flink run -c com.alibaba.Predict /path/../flink-tensorflow/flinkTf/target/flink.tf-1.0-SNAPSHOT.jar --input /path/../flink-tensorflow/iris_test.csv --model /path/../flink-tensorflow/model
 
 pay attention to the parm in the comman line!!
+
 /path/../flink-tensorflow/flinkTf/target/flink.tf-1.0-SNAPSHOT.jar is the path where your jar is
+
 /path/../flink-tensorflow/iris_test.csv is the path to the iris_test.csv
+
 /path/../flink-tensorflow/model is the path to the model
